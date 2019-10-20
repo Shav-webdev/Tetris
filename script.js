@@ -146,7 +146,7 @@ function generateRandomItem() {
 }
 
 
-/*document.body.addEventListener('keydown', handleKeyDown);
+document.body.addEventListener('keydown', handleKeyDown);
 
 function handleKeyDown(e) {
     switch (e.which) {
@@ -160,19 +160,19 @@ function handleKeyDown(e) {
             // moveRight();
             break;
         case 40:
-          //  moveItemDown();
+            moveItemDown();
             break;
         default:
             break;
     }
-}*/
+}
 
 
 function moveItemDown(item = currentItem) {
     setInterval(() => {
         clearActiveClasses();
         drawItem(item);
-    }, 2000);
+    }, 1000);
 }
 
 function clearActiveClasses() {
