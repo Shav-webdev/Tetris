@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body {
+    background-color: #26b5f8;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#wrapper {
+    border: 2px solid #000000;
+    border-top: none;
+    width: 254px;
+    height: 502px;
+}
+
+#cells-block {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.active {
+    background-color: #f85819;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 3px;
+}
+
